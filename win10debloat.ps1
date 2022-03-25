@@ -30,7 +30,7 @@ else{
 
 $Form                            = New-Object system.Windows.Forms.Form
 $Form.ClientSize                 = New-Object System.Drawing.Point(1050,1000)
-$Form.text                       = "Windows Toolbox By Chris Titus"
+$Form.text                       = "Unified Windows Optimizer"
 $Form.StartPosition              = "CenterScreen"
 $Form.TopMost                    = $false
 $Form.BackColor                  = [System.Drawing.ColorTranslator]::FromHtml("#e9e9e9")
@@ -273,7 +273,7 @@ $PictureBox1                     = New-Object system.Windows.Forms.PictureBox
 $PictureBox1.width               = 343
 $PictureBox1.height              = 136
 $PictureBox1.location            = New-Object System.Drawing.Point(580,850)
-$PictureBox1.imageLocation       = "https://github.com/ChrisTitusTech/win10script/blob/master/titus-toolbox.png?raw=true"
+$PictureBox1.imageLocation       = "https://github.com/blitzmid123/unified-wind-optimizer/blob/main/708b1c83b49d75.png?raw=true"
 $PictureBox1.SizeMode            = [System.Windows.Forms.PictureBoxSizeMode]::zoom
 $lightmode                       = New-Object system.Windows.Forms.Button
 $lightmode.text                  = "Light Mode"
